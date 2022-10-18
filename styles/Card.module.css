@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3em;
+  width: 23%;
+  border-radius: .5em;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-image: url('/images/card_pok.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card .id {
+  margin: -2em;
+  position: relative;
+  top: -13px;
+  padding: 1px;
+  margin-top: 1.5em;
+  text-transform: capitalize;
+  font-weight: 400;
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  border: 1.85px solid black;
+  display: flex;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .title {
+  text-transform: capitalize;
+  margin-bottom: .5em;
+  font-size: 1.5em;
+  margin-top: .5em;
+  color: black;
+}
+
+.card .btn {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: .5s;
+  padding: 2.5em;
+}
+
+.card .btn:hover{
+  color: red;
+}

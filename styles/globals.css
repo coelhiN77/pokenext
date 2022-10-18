@@ -1,0 +1,24 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.705));
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(#8D7166, #8D7166);
+}

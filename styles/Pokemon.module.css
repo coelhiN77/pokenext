@@ -1,0 +1,176 @@
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.pokemon_container {
+  position: absolute;
+  top: 20%;
+  left: 38.3%;
+  width: 450px;
+  height: 490px;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 5px 10px 5px 5px rgba(95, 94, 94, 0.692);
+}
+
+.title h1 {
+  text-transform: uppercase;
+  background: red;
+  color: white;
+  width: 250px;
+  text-align: center;
+  margin-left: 3em;
+  padding-left: 2em;
+  border-radius: 10px;
+  display: flex;
+  transition: 1.2s;
+  margin-bottom: -2em;
+}
+
+.number h3 {
+  flex-direction: column;
+  margin: -2.5em auto;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.poke_id {
+  margin-top: 3.5em;
+}
+
+.types_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  padding: 0.6em 1em;
+  color: black;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  margin-top: 1em;
+  border-top: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: -1em;
+  text-transform: uppercase;
+}
+
+.type_normal {
+  background-color: #aa9;
+}
+
+.type_fire {
+  background-color: #f42;
+}
+
+.type_water {
+  background-color: #39f;
+}
+
+.type_eletric {
+  background-color: #fc3;
+}
+
+.type_grass {
+  background-color: #7c5;
+}
+
+.type_ice {
+  background-color: #6cf;
+}
+
+.type_fighting {
+  background-color: #b54;
+}
+
+.type_poison {
+  background-color: #a59;
+}
+
+.type_ground {
+  background-color: #db5;
+}
+
+.type_flying {
+  background-color: #89f;
+}
+
+.type_psychic {
+  background-color: #f59;
+}
+
+.type_bug {
+  background-color: #ab2;
+}
+
+.type_rock {
+  background-color: #ba6;
+}
+
+.type_ghost {
+  background-color: #66b;
+}
+
+.type_dragon {
+  background-color: #76e;
+}
+
+.type_dark {
+  background-color: #754;
+}
+
+.type_steel {
+  background-color: #aab;
+}
+
+.type_fairy {
+  background-color: #e9e;
+}
+
+.data_container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.data_container div {
+  margin: 1em 0;
+  padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data_height {
+  border-right: 1px solid #ccc;
+}
+
+.back{
+  margin-top: 3.5em;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.back a{
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 50px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.back a:hover {
+  color: #17a2ff;
+}
